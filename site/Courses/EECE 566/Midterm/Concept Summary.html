@@ -1,0 +1,2865 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://qihang-zhang.github.io/notes/Courses/EECE%20566/Midterm/Concept%20Summary.html">
+      
+      
+        <link rel="prev" href="../../../Books/About.html">
+      
+      
+        <link rel="next" href="../../About.html">
+      
+      
+      <link rel="icon" href="../../../assets/fruit/lemon.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Concept Summary - Qihang's Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+  
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+  
+  <style>.md-tag--html{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m0 32 34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>');}.md-tag--js{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>');}.md-tag--css{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m480 32-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"/></svg>');}</style>
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eece-566-part1-concept-summary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://qihang-zhang.github.io/notes/" title="Qihang&#39;s Notes" class="md-header__button md-logo" aria-label="Qihang's Notes" data-md-component="logo">
+      
+  <img src="../../../assets/fruit/watermelon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Qihang's Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Concept Summary
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54 0 4.5-2.94 8.27-7 9.54.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Qihang-Zhang/notes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Qihang-Zhang/notes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Homepage
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Books/About.html" class="md-tabs__link">
+          
+  
+  Books
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="Concept%20Summary.html" class="md-tabs__link">
+          
+  
+  Courses
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Paper%20Reading/index.html" class="md-tabs__link">
+          
+  
+  Paper Reading
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Developing%20Tools/Library/MkDocs/About.html" class="md-tabs__link">
+          
+  
+  Developing Tools
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://qihang-zhang.github.io/notes/" title="Qihang&#39;s Notes" class="md-nav__button md-logo" aria-label="Qihang's Notes" data-md-component="logo">
+      
+  <img src="../../../assets/fruit/watermelon.svg" alt="logo">
+
+    </a>
+    Qihang's Notes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Qihang-Zhang/notes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Qihang-Zhang/notes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homepage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Books
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Books
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Books/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Courses
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Courses
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EECE 566
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            EECE 566
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Midterm
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Midterm
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Concept Summary
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Concept%20Summary.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Concept Summary
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#source-and-channel-concepts" class="md-nav__link">
+    Source And Channel Concepts
+  </a>
+  
+    <nav class="md-nav" aria-label="Source And Channel Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dms" class="md-nav__link">
+    DMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bss-in-dms" class="md-nav__link">
+    BSS \(\in\) DMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dmc" class="md-nav__link">
+    DMC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bsc" class="md-nav__link">
+    BSC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bec" class="md-nav__link">
+    BEC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ber" class="md-nav__link">
+    BER
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bpsk" class="md-nav__link">
+    BPSK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#awgnchannel" class="md-nav__link">
+    AWGN(channel)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agnchannel" class="md-nav__link">
+    AGN(channel)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coding-gain" class="md-nav__link">
+    Coding Gain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamming-distance" class="md-nav__link">
+    Hamming Distance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#channel-capacity" class="md-nav__link">
+    Channel Capacity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#probability" class="md-nav__link">
+    Probability
+  </a>
+  
+    <nav class="md-nav" aria-label="Probability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gussian-pdf" class="md-nav__link">
+    Gussian pdf:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gussian-cdf" class="md-nav__link">
+    Gussian cdf:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gussian-generating-function" class="md-nav__link">
+    Gussian Generating Function:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qalpha" class="md-nav__link">
+    \(Q(\alpha)\)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measure-of-information" class="md-nav__link">
+    Measure of Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Measure of Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-entropy" class="md-nav__link">
+    Self Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Self Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#binary-entropy-function" class="md-nav__link">
+    Binary Entropy Function
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#joint-entropy" class="md-nav__link">
+    Joint Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Joint Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditional-entropy" class="md-nav__link">
+    Conditional Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditional Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_1" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relative-entropy" class="md-nav__link">
+    Relative Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Relative Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_2" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutual-information" class="md-nav__link">
+    Mutual Information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relationship-between-hxy-hxy-and-hyx" class="md-nav__link">
+    \(Relationship \,between \,H(X,Y), H(X|Y), and \, H(Y|X)\)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-coding" class="md-nav__link">
+    Source Coding
+  </a>
+  
+    <nav class="md-nav" aria-label="Source Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uniquely-decodableud" class="md-nav__link">
+    Uniquely decodable(U.D.)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefix-freeprefix" class="md-nav__link">
+    Prefix-free/Prefix
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theorem-kraft-inequality" class="md-nav__link">
+    Theorem Kraft Inequality
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thereom-mcmillan-inequality" class="md-nav__link">
+    Thereom McMillan Inequality
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-length-source-coding-theorem" class="md-nav__link">
+    Variable-length source coding theorem
+  </a>
+  
+    <nav class="md-nav" aria-label="Variable-length source coding theorem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#average-codeword-length" class="md-nav__link">
+    average codeword length
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entropy" class="md-nav__link">
+    Entropy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lower-bound" class="md-nav__link">
+    Lower bound
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upper-bound" class="md-nav__link">
+    Upper bound
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#huffman-coding" class="md-nav__link">
+    Huffman Coding
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed-length-source-coding" class="md-nav__link">
+    Fixed-length source coding
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#universal-source-coding" class="md-nav__link">
+    Universal Source Coding
+  </a>
+  
+    <nav class="md-nav" aria-label="Universal Source Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lempel-ziv-algorithm" class="md-nav__link">
+    Lempel-Ziv Algorithm
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#channel-coding" class="md-nav__link">
+    Channel Coding
+  </a>
+  
+    <nav class="md-nav" aria-label="Channel Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dmc_1" class="md-nav__link">
+    DMC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shannons-capacity-of-a-dmc" class="md-nav__link">
+    Shannon's capacity of a DMC
+  </a>
+  
+    <nav class="md-nav" aria-label="Shannon's capacity of a DMC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculation" class="md-nav__link">
+    Calculation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symmetric-dmc" class="md-nav__link">
+    Symmetric DMC
+  </a>
+  
+    <nav class="md-nav" aria-label="Symmetric DMC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    Definition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties_3" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#channel-capacity-theorem" class="md-nav__link">
+    Channel Capacity Theorem
+  </a>
+  
+    <nav class="md-nav" aria-label="Channel Capacity Theorem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equality-holds-when" class="md-nav__link">
+    equality holds when
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markov-inequality" class="md-nav__link">
+    Markov Inequality
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chernoff-bound" class="md-nav__link">
+    Chernoff Bound
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#continuous-random-variables" class="md-nav__link">
+    Continuous random variables
+  </a>
+  
+    <nav class="md-nav" aria-label="Continuous random variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entropy_1" class="md-nav__link">
+    Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entropy-of-gaussian-random-variable" class="md-nav__link">
+    Entropy of Gaussian random variable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutual-information_1" class="md-nav__link">
+    Mutual Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Mutual Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#capacity-of-gaussian-channel" class="md-nav__link">
+    Capacity of Gaussian channel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity-of-parallel" class="md-nav__link">
+    Capacity of parallel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Paper Reading
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Paper Reading
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper%20Reading/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper%20Reading/archive/2023.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper%20Reading/category/something.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Something
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Developing Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Developing Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Library
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Library
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_1" id="__nav_5_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MkDocs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            MkDocs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/Library/MkDocs/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_2" id="__nav_5_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pytorch
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Pytorch
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/Library/Pytorch/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Language
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Language
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Markdown HTML5 CSS
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Markdown HTML5 CSS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/Language/Markdown%20HTML5%20CSS/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/Language/Python/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_3" id="__nav_5_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Shell
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Shell
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/Language/Shell/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4" id="__nav_5_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    LaTex
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            LaTex
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/Language/LaTex/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Developing%20Tools/About.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#source-and-channel-concepts" class="md-nav__link">
+    Source And Channel Concepts
+  </a>
+  
+    <nav class="md-nav" aria-label="Source And Channel Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dms" class="md-nav__link">
+    DMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bss-in-dms" class="md-nav__link">
+    BSS \(\in\) DMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dmc" class="md-nav__link">
+    DMC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bsc" class="md-nav__link">
+    BSC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bec" class="md-nav__link">
+    BEC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ber" class="md-nav__link">
+    BER
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bpsk" class="md-nav__link">
+    BPSK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#awgnchannel" class="md-nav__link">
+    AWGN(channel)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agnchannel" class="md-nav__link">
+    AGN(channel)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coding-gain" class="md-nav__link">
+    Coding Gain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamming-distance" class="md-nav__link">
+    Hamming Distance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#channel-capacity" class="md-nav__link">
+    Channel Capacity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#probability" class="md-nav__link">
+    Probability
+  </a>
+  
+    <nav class="md-nav" aria-label="Probability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gussian-pdf" class="md-nav__link">
+    Gussian pdf:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gussian-cdf" class="md-nav__link">
+    Gussian cdf:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gussian-generating-function" class="md-nav__link">
+    Gussian Generating Function:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qalpha" class="md-nav__link">
+    \(Q(\alpha)\)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measure-of-information" class="md-nav__link">
+    Measure of Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Measure of Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-entropy" class="md-nav__link">
+    Self Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Self Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#binary-entropy-function" class="md-nav__link">
+    Binary Entropy Function
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#joint-entropy" class="md-nav__link">
+    Joint Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Joint Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditional-entropy" class="md-nav__link">
+    Conditional Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditional Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_1" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relative-entropy" class="md-nav__link">
+    Relative Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Relative Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_2" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutual-information" class="md-nav__link">
+    Mutual Information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relationship-between-hxy-hxy-and-hyx" class="md-nav__link">
+    \(Relationship \,between \,H(X,Y), H(X|Y), and \, H(Y|X)\)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-coding" class="md-nav__link">
+    Source Coding
+  </a>
+  
+    <nav class="md-nav" aria-label="Source Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uniquely-decodableud" class="md-nav__link">
+    Uniquely decodable(U.D.)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefix-freeprefix" class="md-nav__link">
+    Prefix-free/Prefix
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theorem-kraft-inequality" class="md-nav__link">
+    Theorem Kraft Inequality
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thereom-mcmillan-inequality" class="md-nav__link">
+    Thereom McMillan Inequality
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-length-source-coding-theorem" class="md-nav__link">
+    Variable-length source coding theorem
+  </a>
+  
+    <nav class="md-nav" aria-label="Variable-length source coding theorem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#average-codeword-length" class="md-nav__link">
+    average codeword length
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entropy" class="md-nav__link">
+    Entropy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lower-bound" class="md-nav__link">
+    Lower bound
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upper-bound" class="md-nav__link">
+    Upper bound
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#huffman-coding" class="md-nav__link">
+    Huffman Coding
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed-length-source-coding" class="md-nav__link">
+    Fixed-length source coding
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#universal-source-coding" class="md-nav__link">
+    Universal Source Coding
+  </a>
+  
+    <nav class="md-nav" aria-label="Universal Source Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lempel-ziv-algorithm" class="md-nav__link">
+    Lempel-Ziv Algorithm
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#channel-coding" class="md-nav__link">
+    Channel Coding
+  </a>
+  
+    <nav class="md-nav" aria-label="Channel Coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dmc_1" class="md-nav__link">
+    DMC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shannons-capacity-of-a-dmc" class="md-nav__link">
+    Shannon's capacity of a DMC
+  </a>
+  
+    <nav class="md-nav" aria-label="Shannon's capacity of a DMC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculation" class="md-nav__link">
+    Calculation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symmetric-dmc" class="md-nav__link">
+    Symmetric DMC
+  </a>
+  
+    <nav class="md-nav" aria-label="Symmetric DMC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition" class="md-nav__link">
+    Definition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties_3" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#channel-capacity-theorem" class="md-nav__link">
+    Channel Capacity Theorem
+  </a>
+  
+    <nav class="md-nav" aria-label="Channel Capacity Theorem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equality-holds-when" class="md-nav__link">
+    equality holds when
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markov-inequality" class="md-nav__link">
+    Markov Inequality
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chernoff-bound" class="md-nav__link">
+    Chernoff Bound
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#continuous-random-variables" class="md-nav__link">
+    Continuous random variables
+  </a>
+  
+    <nav class="md-nav" aria-label="Continuous random variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entropy_1" class="md-nav__link">
+    Entropy
+  </a>
+  
+    <nav class="md-nav" aria-label="Entropy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entropy-of-gaussian-random-variable" class="md-nav__link">
+    Entropy of Gaussian random variable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutual-information_1" class="md-nav__link">
+    Mutual Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Mutual Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#capacity-of-gaussian-channel" class="md-nav__link">
+    Capacity of Gaussian channel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity-of-parallel" class="md-nav__link">
+    Capacity of parallel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="eece-566-part1-concept-summary">EECE 566 Part1 Concept Summary</h1>
+<h2 id="source-and-channel-concepts">Source And Channel Concepts</h2>
+<h4 id="dms">DMS</h4>
+<p>DMS: Discrete Memoryless Source</p>
+<h4 id="bss-in-dms">BSS <span class="arithmatex">\(\in\)</span> DMS</h4>
+<p>BSS: Binary Symmetric Source</p>
+<h4 id="dmc">DMC</h4>
+<p>DMC: Discrete Memoryless Channel</p>
+<h4 id="bsc">BSC</h4>
+<p>BSC: Binary Symmetric Channel</p>
+<h4 id="bec">BEC</h4>
+<p>BEC: Binary Erasure Channel</p>
+<h4 id="ber">BER</h4>
+<p>BER: Bit Error Rate
+<img alt="image-20231031143344656" src="Concept%20Summary.assets/image-20231031143344656-8788025.png" /></p>
+<h4 id="bpsk">BPSK</h4>
+<p>BPSK: Binary Phase Shift Keying -- a special case of binary antipodal signaling</p>
+<h4 id="awgnchannel">AWGN(channel)</h4>
+<p>AWGN: Additive White Gaussian Noise
+<img alt="image-20231031143756740" src="Concept%20Summary.assets/image-20231031143756740-8788281.png" /></p>
+<h4 id="agnchannel">AGN(channel)</h4>
+<p>AGN: Additive Gaussian Noise</p>
+<h4 id="coding-gain">Coding Gain</h4>
+<p>Coding Gain: The difference between the Energy required to achieve a given BER with coding and the Energy required to achieve the same BER without coding.</p>
+<h4 id="hamming-distance">Hamming Distance</h4>
+<p>Hamming Distance: The number of bit positions in which two code words differ.</p>
+<h4 id="channel-capacity">Channel Capacity</h4>
+<p>Channel Capacity: The maximum rate at which information can be transmitted over a given communication channel in the presence of noise.
+$$
+    C = \max_{p(x)} I(X;Y) = \max_{p(x)} H(Y) - H(Y|X) = \max_{p(x)} H(X) - H(X|Y)\
+$$</p>
+<h2 id="probability">Probability</h2>
+<h4 id="gussian-pdf">Gussian pdf:</h4>
+<div class="arithmatex">\[
+    f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\\
+\]</div>
+<h4 id="gussian-cdf">Gussian cdf:</h4>
+<div class="arithmatex">\[
+    F(x)=\frac{1}{\sqrt{2\pi}\sigma}\int_{-\infty}^{x}e^{-\frac{(x-\mu)^2}{2\sigma^2}}dx\\
+\]</div>
+<h4 id="gussian-generating-function">Gussian Generating Function:</h4>
+<div class="arithmatex">\[
+    \phi(s)=E[e^{sX}]=e^{\mu s+\frac{1}{2}\sigma^2s^2}\\
+\]</div>
+<h4 id="qalpha"><span class="arithmatex">\(Q(\alpha)\)</span></h4>
+<p>Q function is the tail probability of the standard normal distribution. It is defined as:
+$$
+    Q(\alpha)=\frac{1}{\sqrt{2\pi}}\int_{\alpha}^{\infty}e^{-\frac{x^2}{2}}dx\
+$$</p>
+<h2 id="measure-of-information">Measure of Information</h2>
+<h4 id="self-entropy">Self Entropy</h4>
+<div class="arithmatex">\[
+    \mathrm {H} (X)=-\sum _{x\in {\mathcal {X}}}\,p(x)\,\log \,p(x)\\
+\]</div>
+<h5 id="binary-entropy-function">Binary Entropy Function</h5>
+<div class="arithmatex">\[
+\mathrm {H} (X)=-\sum _{x\in {\mathcal {X}}}\,p(x)\,\log\,p(x)\\
+\]</div>
+<h4 id="joint-entropy">Joint Entropy</h4>
+<div class="arithmatex">\[
+    \mathrm {H} (X,Y)=-\sum _{x\in {\mathcal {X}},y\in {\mathcal {Y}}}\,p(x,y)\,\log \,p(x,y)\\
+\]</div>
+<h5 id="properties">Properties</h5>
+<div class="arithmatex">\[
+    \mathrm {H} (X,Y)\leq \mathrm {H} (X)+\mathrm {H} (Y) \, iff \, X \, and \, Y \, are \, independent\\
+\]</div>
+<h4 id="conditional-entropy">Conditional Entropy</h4>
+<div class="arithmatex">\[
+    \mathrm {H} (Y|X)=-\sum _{x\in {\mathcal {X}},y\in {\mathcal {Y}}}\,p(x,y)\,\log \,p(y|x)\\
+\]</div>
+<h5 id="properties_1">Properties</h5>
+<div class="arithmatex">\[
+    \mathrm {H} (Y|X)\leq \mathrm {H} (Y)\\
+\]</div>
+<div class="arithmatex">\[
+\mathrm {H} (Y|X) = \sum _{x\in {\mathcal {X}}}\,p(x)\,\mathrm {H} (Y|X=x)
+\]</div>
+<h4 id="relative-entropy">Relative Entropy</h4>
+<p>(KL Divergence)</p>
+<div class="arithmatex">\[
+    \mathrm {D} _{\mathrm {KL} }(P\parallel Q)=\sum _{x\in {\mathcal {X}}}\,p(x)\,\log {\frac {p(x)}{q(x)}}\\
+\]</div>
+<h5 id="properties_2">Properties</h5>
+<p>positive semi-definite:</p>
+<div class="arithmatex">\[
+    \mathrm {D} _{\mathrm {KL} }(P\parallel Q)\geq 0\\ 
+\]</div>
+<h4 id="mutual-information">Mutual Information</h4>
+<div class="arithmatex">\[
+    \mathrm {I} (X;Y)=\sum _{x\in {\mathcal {X}},y\in {\mathcal {Y}}}\,p(x,y)\,\log {\frac {p(x,y)}{p(x)\,p(y)}}\\
+\]</div>
+<p><strong><em>Relation ship between KL Divergence and Mutual Information:</em></strong></p>
+<div class="arithmatex">\[
+    \mathrm {I} (X;Y)=\mathrm {D} _{\mathrm {KL} }(P(X,Y)\parallel P(X)P(Y))\\  
+\]</div>
+<p><strong><em>Conditional Mutual Information</em></strong>
+    $$ 
+        \mathrm {I} (X;Y|Z)=\mathrm {H} (X|Z)-\mathrm {H} (X|Y,Z)\ 
+    $$</p>
+<h4 id="relationship-between-hxy-hxy-and-hyx"><span class="arithmatex">\(Relationship \,between \,H(X,Y), H(X|Y), and \, H(Y|X)\)</span></h4>
+<p><strong><em>Relation ship between Joint Entropy and Conditional Entropy:</em></strong>
+$$
+        \mathrm {H} (X,Y)=\mathrm {H} (X)+\mathrm {H} (Y|X)\
+$$
+<strong><em>Relation ship between Mutual Information and Conditional Entropy:</em></strong>
+$$
+        \mathrm {I} (X;Y)=\mathrm {H} (X)-\mathrm {H} (X|Y)\
+$$
+<strong><em>Relation ship between Mutual Information and Joint Entropy:</em></strong>
+$$
+        \mathrm{H}(X) - \mathrm{I}(X;Y) = \mathrm{H} (X|Y) = \mathrm{H} (X,Y) - \mathrm{H} (Y)\
+$$
+$$
+\mathrm {I} (X;Y)=\mathrm {H} (X)+\mathrm {H} (Y)-\mathrm {H} (X,Y)\
+$$</p>
+<p><img alt="image-20231031142750835" src="Concept%20Summary.assets/image-20231031142750835-8787679.png" /></p>
+<h2 id="source-coding">Source Coding</h2>
+<h4 id="uniquely-decodableud">Uniquely decodable(U.D.)</h4>
+<p>Uniquely decodable(U.D.): A code is uniquely decodable if different source sequences are mapped into different cw sequences.</p>
+<h4 id="prefix-freeprefix">Prefix-free/Prefix</h4>
+<p>Instantaneous code/Prefix-free: A code is prefix-free if no cw is a prefix of any other cw.</p>
+<h4 id="theorem-kraft-inequality">Theorem Kraft Inequality</h4>
+<p>For prefix-free codes, the following inequality must be satisfied:
+D: The number of symbols in the alphabet.</p>
+<p>M: The number of codewords.</p>
+<p><span class="arithmatex">\(n_i\)</span>: The length of the i-th codeword.</p>
+<div class="arithmatex">\[
+    \sum_{i=1}^{M}D^{-n_i}\leq 1\\
+\]</div>
+<h4 id="thereom-mcmillan-inequality">Thereom McMillan Inequality</h4>
+<p>For uniquely decodable codes, the following inequality must be satisfied:
+$$
+    \sum_{i=1}^{M}D^{-n_i}\leq 1\ 
+$$</p>
+<h4 id="variable-length-source-coding-theorem">Variable-length source coding theorem</h4>
+<h5 id="average-codeword-length">average codeword length</h5>
+<div class="arithmatex">\[
+    \bar{N}=\sum_{i=1}^{M}p_i n_i\\
+\]</div>
+<h5 id="entropy">Entropy</h5>
+<div class="arithmatex">\[
+    H_D(X)=-\sum_{i=1}^{M}p_i\log_D p_i\\
+\]</div>
+<h5 id="lower-bound">Lower bound</h5>
+<div class="arithmatex">\[
+    \bar{N}\geq H_D(X)\\
+\]</div>
+<h5 id="upper-bound">Upper bound</h5>
+<div class="arithmatex">\[
+    \bar{N} &lt; H_D(X)+1\\
+\]</div>
+<p>Choose <span class="arithmatex">\(n_i = \lceil \log_D \frac{1}{p_i} \rceil\)</span> to minimize <span class="arithmatex">\(\bar{N}\)</span>, then <span class="arithmatex">\(\bar{N} = H_D(X) + 1\)</span>.</p>
+<h4 id="huffman-coding">Huffman Coding</h4>
+<p>(Optimal variable-length source coding)</p>
+<p>Skip its Proof</p>
+<h4 id="fixed-length-source-coding">Fixed-length source coding</h4>
+<p>A sequence of L consecutive symbols from a DMS of alphabet size M
+$$
+    U_L = \{ U_1,U_2,...,U_L\}<br />
+$$
+Suppose weuse a code alphabet of size D to encode these sequences into fixed length codewords of length N.</p>
+<div class="arithmatex">\[
+    D^N\geq M^L\\
+\]</div>
+<div class="arithmatex">\[
+    \frac{N}{L} \geq \frac{\log M}{\log D}\\
+\]</div>
+<h2 id="universal-source-coding">Universal Source Coding</h2>
+<h4 id="lempel-ziv-algorithm">Lempel-Ziv Algorithm</h4>
+<p>Skip</p>
+<h2 id="channel-coding">Channel Coding</h2>
+<h4 id="dmc_1">DMC</h4>
+<p>DMC: Discrete Memoryless Channel</p>
+<h4 id="shannons-capacity-of-a-dmc">Shannon's capacity of a DMC</h4>
+<div class="arithmatex">\[
+    C = \max_{p(x)} I(X;Y)
+\]</div>
+<h5 id="calculation">Calculation</h5>
+<div class="arithmatex">\[
+    C = \max_{p(x)} I(X;Y) = \max_{p(x)} H(Y) - H(Y|X) = \max_{p(x)} H(X) - H(X|Y)\\
+\]</div>
+<h4 id="symmetric-dmc">Symmetric DMC</h4>
+<h5 id="definition">Definition</h5>
+<p>A DMC is symmetric if the output symbols can be  partitioned into subsets in such a way that for each subset each row is a permutation of the other row and each column is a permutation of the other column.</p>
+<h5 id="properties_3">Properties</h5>
+<p>For a symmetric DMC, the capacity is achieved by a uniform input distribution.</p>
+<h4 id="channel-capacity-theorem">Channel Capacity Theorem</h4>
+<p><img alt="image-20231031151917152" src="Concept%20Summary.assets/image-20231031151917152.png" />
+<span class="arithmatex">\(p_{e,l} = Pr \\{ \hat{U_l} \not= U_l \\}\)</span></p>
+<p><span class="arithmatex">\(P_e = \frac{1}{L} \sum_{l=1}^{L} p_{e,l}\)</span>
+$$
+P_elog(M - 1) + h(P_e) \geq H(U) - \frac{\tau_s}{\tau_c}C\
+$$</p>
+<h5 id="equality-holds-when">equality holds when</h5>
+<p>1) <span class="arithmatex">\(U_l = X_n\)</span>, <span class="arithmatex">\(Y_n = \hat{U_l}\)</span></p>
+<p>2) <span class="arithmatex">\(\hat{U_l}\)</span> and <span class="arithmatex">\(\mathrm{1}\{U_l \not= \hat{u_l}\}\)</span> are independent</p>
+<h4 id="markov-inequality">Markov Inequality</h4>
+<div class="arithmatex">\[
+    Pr \{ X \geq \sigma \} \leq \frac{E[X]}{\sigma}\\
+\]</div>
+<h4 id="chernoff-bound">Chernoff Bound</h4>
+<div class="arithmatex">\[
+    Pr \{ X \geq \sigma \} \leq \frac{E[e^{sX}]}{e^{s\sigma}}, \, s &gt; 0\\
+\]</div>
+<div class="arithmatex">\[
+    Pr \{ X \geq \sigma \} \geq \frac{E[e^{sX}]}{e^{s\sigma}}, \, s &lt; 0\\
+\]</div>
+<h2 id="continuous-random-variables">Continuous random variables</h2>
+<h4 id="entropy_1">Entropy</h4>
+<div class="arithmatex">\[
+    H(X) = -\int_{-\infty}^{\infty}f(x)\log f(x)dx\\
+\]</div>
+<h5 id="entropy-of-gaussian-random-variable">Entropy of Gaussian random variable</h5>
+<div class="arithmatex">\[
+    H(X) = \frac{1}{2}\log(2\pi e\sigma^2)\\
+\]</div>
+<h4 id="mutual-information_1">Mutual Information</h4>
+<div class="arithmatex">\[
+    I(X;Y) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x,y)\log\frac{f(x,y)}{f(x)f(y)}dxdy\\
+\]</div>
+<h5 id="capacity-of-gaussian-channel">Capacity of Gaussian channel</h5>
+<div class="arithmatex">\[
+    C = \frac{1}{2}\log(1+\frac{E}{\sigma^2})\\
+\]</div>
+<h4 id="capacity-of-parallel">Capacity of parallel</h4>
+<div class="arithmatex">\[
+    C = \sum_{i=1}^{n}C_i = \sum_{i=1}^{n}\frac{1}{2}\log(1+\frac{E_i}{\sigma_i^2})\\
+\]</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../../Books/About.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: About">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                About
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../About.html" class="md-footer__link md-footer__link--next" aria-label="Next: About">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                About
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.path", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "tags": {"CSS": "css", "HTML5": "html", "JavaScript": "js"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
