@@ -18,5 +18,5 @@ git remote -v
 ```
 ### Change remote url
 ```bash
-git remote set-url origin
+git remote set-url remote-name remote-url
 ```
