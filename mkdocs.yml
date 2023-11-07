@@ -107,6 +107,8 @@ nav:
         - About: Developing Tools/Library/MkDocs/About.md
       - Pytorch: 
         - About: Developing Tools/Library/Pytorch/About.md
+      - Git: 
+        - Git-All-In-One: Developing Tools/Library/Git/Git-All-In-One.md
     - Language: 
       - Markdown HTML5 CSS: 
         - About: Developing Tools/Language/Markdown HTML5 CSS/About.md

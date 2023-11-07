@@ -2,77 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://qihang-zhang.github.io/notes/index.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Books/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Courses/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Courses/EECE%20566/Midterm/Concept%20Summary.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Language/LaTex/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Language/Markdown%20HTML5%20CSS/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Language/Python/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Language/Shell/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Library/Git/Git-All-In-One.html</loc>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Library/MkDocs/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Developing%20Tools/Library/Pytorch/About.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Paper%20Reading/index.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Paper%20Reading/2023/10/21/LLM-Tokenizer.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Paper%20Reading/archive/2023.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qihang-zhang.github.io/notes/Paper%20Reading/category/something.html</loc>
-         <lastmod>2023-11-01</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
