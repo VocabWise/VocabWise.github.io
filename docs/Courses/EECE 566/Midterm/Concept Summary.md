@@ -111,7 +111,7 @@ $$
 #### Mutual Information
 
 $$
-    \mathrm {I} (X;Y)=\sum _{x\in {\mathcal {X}},y\in {\mathcal {Y}}}\,p(x,y)\,\log {\frac {p(x,y)}{p(x)\,p(y)}}\\
+\mathrm {I} (X;Y)=\sum _{x\in {\mathcal {X}},y\in {\mathcal {Y}}}\,p(x,y)\,\log {\frac {p(x,y)}{p(x)\,p(y)}}\\
 $$
 
 ***Relation ship between KL Divergence and Mutual Information:***
@@ -121,9 +121,9 @@ $$
 $$
 
 ***Conditional Mutual Information***
-    $$ 
-        \mathrm {I} (X;Y|Z)=\mathrm {H} (X|Z)-\mathrm {H} (X|Y,Z)\\ 
-    $$
+$$
+\mathrm {I} (X;Y|Z)=\mathrm {H} (X|Z)-\mathrm {H} (X|Y,Z)\\
+$$
 
 
 #### $Relationship \,between \,H(X,Y), H(X|Y), and \, H(Y|X)$

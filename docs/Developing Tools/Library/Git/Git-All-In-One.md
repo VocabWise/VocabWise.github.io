@@ -20,3 +20,15 @@ git remote -v
 ```bash
 git remote set-url remote-name remote-url
 ```
+
+## .gitignore
+### Add .gitignore
+```bash
+touch .gitignore
+```
+### make .gitignore work
+```bash
+git rm -rf --cached .
+git add .
+git commit -m "fixed untracked files"
+```

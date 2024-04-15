@@ -118,4 +118,6 @@ nav:
         - About: Developing Tools/Language/Shell/About.md
       - LaTex: 
         - About: Developing Tools/Language/LaTex/About.md
+    - Linux: 
+      - About: Developing Tools/Linux/About.md
     - About: Developing Tools/About.md
