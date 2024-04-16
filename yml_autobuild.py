@@ -28,7 +28,7 @@ def dfs_writedir(path, depth, file):
             to_write = " " * 2 * (depth + 1) + "- " + item.split(".")[0] + ': '
             if item == "Homepage":
                 to_write += "index.md"
-            elif path == 'docs/Paper Reading' and item == 'Papers': 
+            elif path == 'docs/PaperReading' and (item == 'Papers' or item == 'assets'): 
                 continue  
             elif path == 'docs' and item == 'index.md':
                 continue

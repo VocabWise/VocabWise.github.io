@@ -27,7 +27,7 @@ extra_javascript:
 plugins:
   - search
   - blog:
-      blog_dir: Paper Reading
+      blog_dir: PaperReading
       blog_toc: true
       post_dir: "{blog}/Papers"
       post_date_format: medium
@@ -98,8 +98,8 @@ nav:
       - Midterm: 
         - Concept Summary: Courses/EECE 566/Midterm/Concept Summary.md
     - About: Courses/About.md
-  - Paper Reading: 
-    - index: Paper Reading/index.md
+  - PaperReading: 
+    - index: PaperReading/index.md
   - Developing Tools: 
     - Library: 
       - MkDocs: 

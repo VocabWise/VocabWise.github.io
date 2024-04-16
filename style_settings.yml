@@ -27,7 +27,7 @@ extra_javascript:
 plugins:
   - search
   - blog:
-      blog_dir: Paper Reading
+      blog_dir: PaperReading
       blog_toc: true
       post_dir: "{blog}/Papers"
       post_date_format: medium
