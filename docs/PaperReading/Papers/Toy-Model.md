@@ -39,4 +39,5 @@ $$
 
 Adding a ReLU to the hidden layer radically changes the model from an interpretability perspective. The key thing is that while $W$ in our previous model was challenging to interpret (recall that we visualized $W^TW$ rather than $W$), $W$ in the ReLU hidden layer model can be directly interpreted, since it connects features to basis-aligned neurons.
 
-![img](../../assets/DBD7D38D-6C75-4991-8D33-E849693024C0.png)
+![img](./assets/DBD7D38D-6C75-4991-8D33-E849693024C0.png)
+
