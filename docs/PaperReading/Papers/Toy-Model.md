@@ -18,7 +18,18 @@ Links:
 - [Colab](https://colab.research.google.com/github/anthropics/toy-models-of-superposition/blob/main/toy_models.ipynb)
 <!-- more -->
 
-## Abstract
+## Motivation
+
+***Observation:*** Empirically, in models we have studied, **some of the neurons do cleanly map to features**. But **it isn't always the case that features correspond so cleanly to neurons**, especially in large language models where it actually seems rare for neurons to correspond to clean features.
+
+**superposition**: how and when models represent more features than they have dimensions. 
+
+
+
+## [Definitions and Motivation: Features, Directions, and Superposition](https://transformer-circuits.pub/2022/toy_model/index.html#motivation)
+
+
+
 ## Section 7: Superposition in a Privileged Basis
 Goal: to explore the simplest toy model which gives us a privileged basis
 
