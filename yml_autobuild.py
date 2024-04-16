@@ -50,7 +50,7 @@ def dfs_writedir(path, depth, file):
                 dfs_writedir(newitem, depth +1, file)
                 
 global_path = "docs"
-ignore_set = ['.DS_Store', 'assets', 'stylesheets']
+ignore_set = ['.DS_Store', 'assets', 'stylesheets', 'javascript']
 dirc_set = os.listdir(global_path)
 shutil.copyfile('./style_settings.yml', './mkdocs.yml')
      
