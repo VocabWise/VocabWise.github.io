@@ -3,6 +3,13 @@ Hello here are my notes. I build this projects with [Mkdocs](https://www.mkdocs.
 
 Here is the instruction of how to build a website with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/): [How to build your person website/ blog with mkdocs(Start from Material for MkDocs)](https://qihang-zhang.github.io/notes/technical_skills/mkdocs.html)
 ## Frequent Command
+### To install mkdocs:
+
+```shell
+pip install mkdocs
+pip install mkdocs-material
+```
+
 ### To build site:
 
 ```shell

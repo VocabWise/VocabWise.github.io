@@ -24,6 +24,6 @@
 
 Hi, this is [Qihang](https://qihang-zhang.github.io) I’m documenting my learning process in this notes. I built this project with [Mkdocs](https://www.mkdocs.org/) and use the theme of [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). It's a really powerful tool to build blog or notes.
 
-I will post some notes on important courses, interesting papers, as well as how to use technical tools such as Git and Overleaf. Maybe there will be much more interesting content in the future. If you are also interested in those topics, feel free to [contact me](mailto:anchor-zhang@outlook.com), and I am really happy to discuss with various people.
+I will post some notes on courses, interesting papers, as well as how to use technical tools.
 
-Here is the instruction on how to build a website with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/): [How to build your personal website/blog with MkDocs (Start from Material for MkDocs)](https://qihang-zhang.github.io/notes/technical_skills/mkdocs.html)
+Here is the instruction on how to build a website with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
