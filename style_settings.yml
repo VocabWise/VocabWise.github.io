@@ -2,9 +2,6 @@ site_name: Qihang's Notes
 
 site_url: https://qihang-zhang.github.io/notes/
 
-repo_url: https://github.com/Qihang-Zhang/notes
-repo_name: Qihang-Zhang/notes
-
 extra_css:
   - stylesheets/extra.css
 

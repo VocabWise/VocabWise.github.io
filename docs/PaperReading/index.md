@@ -1,2 +1,2 @@
-# Blog
+# Paper Reading Log
 
