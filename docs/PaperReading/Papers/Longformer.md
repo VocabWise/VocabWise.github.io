@@ -10,14 +10,11 @@ slug: Longformer
 authors:
   - <qihang>
 ---
-# Longformer: The Long-Document Transformer
-
-## Links:
-- [paper](https://arxiv.org/abs/2004.05150)
-
-- [code](https://github.com/allenai/longformer)
-
+# Longformer
   <!-- more -->
+## Links:
+[paper](https://arxiv.org/abs/2004.05150)
+[code](https://github.com/allenai/longformer)
 
 ## Attention Pattern
 

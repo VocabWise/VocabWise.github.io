@@ -1,6 +1,5 @@
 ---
 categories:
-  - TODO
   - Explainability
 date: 2024-04-16
 draft: false
@@ -12,12 +11,12 @@ authors:
   - <qihang>
 ---
 # Toy Models of Superposition
-Links:
-- [Paper](https://transformer-circuits.pub/2022/toy_model/index.html)
-- [Code](https://github.com/anthropics/toy-models-of-superposition)
-- [Colab](https://colab.research.google.com/github/anthropics/toy-models-of-superposition/blob/main/toy_models.ipynb)
-<!-- more -->
 
+<!-- more -->
+## Links:
+[Paper](https://transformer-circuits.pub/2022/toy_model/index.html)
+[Code](https://github.com/anthropics/toy-models-of-superposition)
+[Colab](https://colab.research.google.com/github/anthropics/toy-models-of-superposition/blob/main/toy_models.ipynb)
 ## [Motivation](https://transformer-circuits.pub/2022/toy_model/index.html#motivation)
 
 ***Observation:*** Empirically, in models we have studied, **some of the neurons do cleanly map to features**. But **it isn't always the case that features correspond so cleanly to neurons**, especially in large language models where it actually seems rare for neurons to correspond to clean features.

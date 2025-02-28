@@ -11,15 +11,12 @@ authors:
   - <qihang>
 ---
 # Generating Long Sequences with Sparse Transformers
-
-## Links:
-- [paper](https://arxiv.org/abs/1904.10509)
-
-- [code](https://github.com/openai/sparse_attention)
-
-- [Blog](https://openai.com/index/sparse-transformer/)
-
   <!-- more -->
+## Links:
+[paper](https://arxiv.org/abs/1904.10509)
+[code](https://github.com/openai/sparse_attention)
+[Blog](https://openai.com/index/sparse-transformer/)
+
 ## Introduction
 
 This paper introduces sparse factorizations of the attention matrix which **reduce this to $O(n\sqrt{n})$** and following points:
