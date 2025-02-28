@@ -97,7 +97,6 @@ nav:
     - About: Courses/About.md
   - PaperReading: 
     - index: PaperReading/index.md
-    - test: PaperReading/test.md
   - Developing Tools: 
     - Library: 
       - MkDocs: 
