@@ -17,6 +17,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 python yml_autobuild.py
+mkdocs gh-deploy --force
 git add .
 git commit -m "$commit_msg"
 git push

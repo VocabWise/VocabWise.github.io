@@ -22,6 +22,12 @@ mkdocs build
 mkdocs serve --watch-theme
 ```
 
+### To deploy site:
+
+```shell
+mkdocs gh-deploy --force
+```
+
 ### to kill preview program:
 ```shell
 ps -fA | grep python
