@@ -22,8 +22,4 @@
 	</body>
 </html>
 
-Hi, this is [Qihang](https://qihang-zhang.github.io) I’m documenting my learning process in this notes. I built this project with [Mkdocs](https://www.mkdocs.org/) and use the theme of [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). It's a really powerful tool to build blog or notes.
-
-I will post some notes on courses, interesting papers, as well as how to use technical tools.
-
-Here is the instruction on how to build a website with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+Hi, this is [Qihang](https://qihang-zhang.github.io)👋. I’m documenting my learning process in this blog. This blog will focus both on the latest advancements in learning algorithms and engineering techniques.

@@ -3,7 +3,6 @@
 # default commit message
 commit_msg="auto update"
 
-# 解析命令行参数
 while [[ $# -gt 0 ]]; do
     case "$1" in
         -m|--message)
@@ -16,7 +15,8 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-python yml_autobuild.py
+source .venv/bin/activate
+python ./utils/yml_autobuild.py --mode published
 mkdocs gh-deploy --force
 git add .
 git commit -m "$commit_msg"

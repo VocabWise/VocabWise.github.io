@@ -99,8 +99,3 @@ theme:
         icon: material/brightness-3
         name: Switch to light mode
 
-nav: 
-  - Note: 
-    - index: Note/index.md
-    - motivation: Note/motivation.md
-  - Homepage: index.md
