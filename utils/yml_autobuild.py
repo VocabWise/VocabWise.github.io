@@ -31,12 +31,10 @@ def dfs_writedir(path, depth, file):
             continue
         elif '.git' not in item:
             to_write = " " * 2 * (depth + 1) + "- " + item.split(".")[0] + ': '
-            if item == "Homepage":
-                to_write += "index.md"
-            elif path == 'docs/Note' and item == 'Posts': 
+            if path == "docs" and item == "index.md":
+                to_write = " " * 2 * (depth + 1) + "- " + "Homepage: index.md"
+            elif path == 'docs/blog' and item == 'Posts': 
                 continue  
-            elif path == 'docs' and item == 'index.md':
-                continue
             elif len(item.split(".")) > 1:
                 if item.split(".")[1] == 'md':
                     newpath = ''

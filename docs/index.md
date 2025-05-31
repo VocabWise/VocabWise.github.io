@@ -22,4 +22,4 @@
 	</body>
 </html>
 
-Hi, this is [Qihang](https://qihang-zhang.github.io)👋. I’m documenting my learning process in this blog. This blog will cover anything I am interested in.
+Hi, this is the learning blog of VocabWise. We are documenting our leanring process when building our product.

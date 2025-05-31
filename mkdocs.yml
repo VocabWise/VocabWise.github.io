@@ -1,12 +1,12 @@
-site_name: Qihang's Note
+site_name: VocabWise's Blog
 
-site_url: https://qihang-zhang.github.io/notes
+site_url: https://vocabwise.github.io/blogs
 
 extra_css:
   - stylesheets/extra.css
 
 extra:
-  homepage: https://qihang-zhang.github.io/
+  homepage: https://vocabwise.github.io/
   tags:
     HTML5: html
     JavaScript: js
@@ -32,9 +32,9 @@ plugins:
   - bibtex:
       bib_file: 'docs/assets/references.bib'
   - blog:
-      blog_dir: Note
+      blog_dir: blog
       blog_toc: true
-      post_dir: "{blog}/Posts/published"
+      post_dir: "{blog}/Posts"
       post_date_format: medium
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
@@ -100,7 +100,6 @@ theme:
         name: Switch to light mode
 
 nav: 
-  - Note: 
-    - index: Note/index.md
-    - motivation: Note/motivation.md
+  - blog: 
+    - index: blog/index.md
   - Homepage: index.md
