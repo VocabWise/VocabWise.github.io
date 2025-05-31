@@ -35,8 +35,8 @@ uv run zsh autopush.sh -m "your commit message"
 - For name the file, you should follow the format `XXXX-{short-title}.md`, for example, `0000-example.md`.
 
 ## Other Tricks
-If you want to cite a source, you should following the instructions:
-1. Add bibtex file in the `docs/assets/references.bib` folder.
-2. Add the reference in the markdown file.
+1. If you want to cite a source, you should following the instructions:
+    - Add bibtex file in the `docs/assets/references.bib` folder.
+    - Add the reference in the markdown file.
 
-If you want to add new author or update the author information, you should modify the `docs/blog/.authors.yml` file.
+2.If you want to add new author or update the author information, you should modify the `docs/blog/.authors.yml` file.
