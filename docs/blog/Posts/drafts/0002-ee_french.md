@@ -114,7 +114,7 @@ When holding a category-based round of invitations, IRCC will:
 
 #### 🚀 $\star$ Infomation of French-language proficiency Category in Recent Round
 
-As shown by [IRCC](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html), IRCC invited **23,500** people in 2024. 
+As shown by [IRCC](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html), IRCC invited **23,500** people in 2024, the highest score of CRS in French-language proficiency category is **478**, the lowest score is **336**.
 
 ![CRS_French](../assets/0002/CRS_French.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
 
