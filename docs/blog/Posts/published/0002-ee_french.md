@@ -14,7 +14,7 @@ authors:
   - <qihang>
 ---
 # How to Apply for PR via Learning French and Express Entry
-This blog explains how to apply for permanent residence (PR) in Canada through Express Entry via French language proficiency. We will begin with an overview of the Express Entry system, focusing on the <span style="color: red;">**Canadian Experience Class**</span> program and <span style="color: red;">**French-language proficiency**</span> category.
+This blog explains how to apply for permanent residence (PR) in Canada through the Express Entry system by leveraging French language proficiency. We will begin with a brief overview of the Express Entry system, and then focus on the eligibility criteria for the <span style="color: red;">**Canadian Experience Class**</span> program and the <span style="color: red;">**French-language proficiency**</span> category.
 <!-- more -->
 
 ## Overview
