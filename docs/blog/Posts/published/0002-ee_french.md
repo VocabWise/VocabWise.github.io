@@ -18,7 +18,7 @@ This blog explains how to apply for permanent residence (PR) in Canada through t
 
 **TL;DR:** 
 
-1. Check your [eligibility for the Express Entry system](#star-eligibility-for-immigration-programs). 
+1. Check your [eligibility for the Express Entry System](#star-eligibility-for-immigration-programs). 
 2. [Calculate your CRS score](#comprehensive-ranking-system-crs) and compare it with the [cutoff scores for the French-language proficiency category in recent rounds](#star-information-of-french-language-proficiency-category-in-recent-round). 
 3. If your score is competitive, you can begin preparing for the French-language proficiency test to meet the [minimum criteria for French-language proficiency category](#star-french-language-proficiency-category-eligibility).
 <!-- more -->
@@ -86,6 +86,8 @@ Only TEER 0, 1, 2, or 3 jobs count toward the Canadian Experience Class.<br><br>
 Take an example of a Graduate Student in Canada, the NOC code of `Post-secondary teaching and research assistants` is `41201` with `TEER 1` level, as we can see in the [NOC Website](https://noc.esdc.gc.ca/?GoCTemplateCulture=en-CA). 
 
 We can then see in the [Search Result of NOC Website](https://noc.esdc.gc.ca/Structure/NOCProfile?code=41201&version=2021.0), Both Teaching Assistants and Research Assistants are included in TEER 1. So if you were serving as a TA or RA in Canada for at least 1 year, you are eligible for Canadian Experience Class Program.<br><br>
+
+![NOC_Code_RA](../assets/0002/NOC_Code_RA.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## `Current Categories`
 ### All Current Categories
