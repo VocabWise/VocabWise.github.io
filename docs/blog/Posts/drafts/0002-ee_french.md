@@ -1,7 +1,7 @@
 ---
 categories:
   - French
-  - Express Entry System
+  - EE Entry
 date: 2025-05-31
 draft: true
 links:
@@ -33,7 +33,7 @@ To begin, you must first qualify for one of the immigration programs, then explo
 ### Comprehensive Ranking System (CRS)
 CRS Points System is a key component of EE Entry. It is used to determine candidates' eligibility and rank them in the pool. Here is the [official calculator](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score.html#calculator) of CRS Points System. You can try it out to see how many points you can get.
 
-![CRS Calculator](../assets/0002/CRS_calculator.png){width=60% style="display: block; margin: 0 auto;"}
+![CRS Calculator](../assets/0002/CRS_calculator.png){width=60% style="display: block; margin: 0 auto; text-align: center;"}
 
 ### Eligibility for EE Entry and the Three `Immigration programs`
 #### Immigration Programs
