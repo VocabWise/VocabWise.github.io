@@ -112,6 +112,11 @@ When holding a category-based round of invitations, IRCC will:
 
 > For the most up-to-date information, refer to the [official category-based selection page](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html).
 
+#### 🚀 $\star$ Infomation of French-language proficiency Category in Recent Round
+
+As shown by [IRCC](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html), IRCC invited **23,500** people in 2024. 
+
+![CRS_French](../assets/0002/CRS_French.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
 
 ### Procedure For EE Entry Application (TODO)
 
