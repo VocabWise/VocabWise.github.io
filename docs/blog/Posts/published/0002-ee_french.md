@@ -15,6 +15,12 @@ authors:
 ---
 # How to Apply for PR via Learning French and Express Entry
 This blog explains how to apply for permanent residence (PR) in Canada through the Express Entry system by leveraging French language proficiency. We will begin with a brief overview of the Express Entry system, and then focus on the eligibility criteria for the <span style="color: red;">**Canadian Experience Class**</span> program and the <span style="color: red;">**French-language proficiency**</span> category.
+
+**TL;DR:** 
+
+1. Check your [eligibility for the Express Entry system](#star-eligibility-for-immigration-programs). 
+2. [Calculate your CRS score](#comprehensive-ranking-system-crs) and compare it with the [cutoff scores for the French-language proficiency category in recent rounds](#star-information-of-french-language-proficiency-category-in-recent-round). 
+3. If your score is competitive, you can begin preparing for the French-language proficiency test to meet the [minimum criteria for French-language proficiency category](#star-french-language-proficiency-category-eligibility).
 <!-- more -->
 
 ## Overview
@@ -22,19 +28,20 @@ This blog explains how to apply for permanent residence (PR) in Canada through t
 ## Brief Introduction of Express Entry
 [Express Entry](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry) is the Canadian government's online system for managing skilled worker immigration. In this guide, we will use `EE Entry` to refer to the Express Entry system.
 
-EE Entry is a point-based system with different immigration programs and selection categories. Understanding both is critical to maximizing your Comprehensive Ranking System (CRS) score. In this section, we briefly introduce the Canadian Experience Class and the French-language proficiency category. For more details, see [EE Eligibility](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply.html#programs).
+EE Entry is a score-based system with different immigration programs and selection categories. Understanding both is critical to maximizing your Comprehensive Ranking System (CRS) score. In this section, we briefly introduce the Canadian Experience Class and the French-language proficiency category. For more details, see [EE Eligibility](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply.html#programs).
 
 ![Express Entry](../assets/0002/Express_Entry.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 There are three main structural components of EE Entry:
 
-1. <span style="color: red;">**Comprehensive Ranking System (CRS)**</span>: Calculate your CRS points, which is not only used in eligibility but also used in ranking.
+1. <span style="color: red;">**Comprehensive Ranking System (CRS)**</span>: Calculate your CRS score, which is not only used in eligibility but also used in ranking.
 2. <span style="color: red;">**Immigration Programs**</span>: Determine your eligibility to enter the EE pool.
-3. <span style="color: red;">**Current Categories**</span>: Award additional points in targeted rounds or encourage more applications by requiring lower points.
+3. <span style="color: red;">**Current Categories**</span>: Award additional points in targeted rounds or encourage more applications by requiring lower scores.
 
 To begin, you must first qualify for one of the immigration programs, then explore categories to boost your score.
+
 ## Comprehensive Ranking System (CRS)
-CRS Points System is a key component of EE Entry. It is used to determine candidates' eligibility and rank them in the pool. Here is the [official calculator](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score.html#calculator). <span style="color: red;">**Generally, young people with relatively good educational backgrounds can easily earn CRS points sufficient to pass the French-language proficiency category.**</span>
+CRS Score System is a key component of EE Entry. It is used to determine candidates' eligibility and rank them in the pool. Here is the [official calculator](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score.html#calculator). <span style="color: red;">**Generally, young people with relatively good educational backgrounds can easily earn CRS points sufficient to pass the French-language proficiency category.**</span>
 
 ![CRS Calculator](../assets/0002/CRS_calculator.png){width=60% style="display: block; margin: 0 auto; text-align: center;"}
 
@@ -178,12 +185,12 @@ When holding a category-based round of invitations, IRCC will:
 
 ### 🚀 $\star$ Information of French-language proficiency Category in Recent Round
 
-As shown by [IRCC](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html), IRCC invited **23,500** people in 2024, the highest score of CRS in French-language proficiency category is **478**, the lowest score is **336**. Generally speaking, if you are eligible for French-language proficiency category and have reasonably good CRS points, you have a good chance to be invited.
+As shown by [IRCC](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html), IRCC invited **23,500** people in 2024, the highest score of CRS in French-language proficiency category is **478**, the lowest score is **336**. Generally speaking, if you are eligible for French-language proficiency category and have reasonably good CRS scores, you have a good chance to be invited.
 
 ![CRS_French](../assets/0002/CRS_French.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## Conclusion
-<span style="color: red;">**The French-language proficiency category has been relatively stable in recent years. If you are eligible for French-language proficiency category and have reasonably good CRS points, you have a good chance to be invited.**</span>
+<span style="color: red;">**The French-language proficiency category has been relatively stable in recent years. If you are eligible for French-language proficiency category and have reasonably good CRS scores, you have a good chance to be invited.**</span>
 
 ## References
 For the most up-to-date information, please refer to the official IRCC Express Entry website and related documentation. Here are all of the links we referenced in this blog:
