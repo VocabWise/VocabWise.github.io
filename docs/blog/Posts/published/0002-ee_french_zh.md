@@ -19,9 +19,9 @@ authors:
 
 **TL;DR：**
 
-1. 首先确认你是否符合 [Express Entry 的基本申请条件](#star-eligibility-for-immigration-programs)。  
-2. [计算你的 CRS 分数](#comprehensive-ranking-system-crs)，并参考 [法语能力类别近期的邀请分数线](#star-information-of-french-language-proficiency-category-in-recent-round)。  
-3. 如果分数具备竞争力，就可以开始准备法语考试，力争满足 [该类别的最低语言要求](#star-french-language-proficiency-category-eligibility)。  
+1. 首先确认你是否符合 [Express Entry 的基本申请条件](#star-cec)。  
+2. [计算你的 CRS 分数](#comprehensive-ranking-system-crs)，并参考 [法语能力类别近期的邀请分数线](#star-2024)。  
+3. 如果分数具备竞争力，就可以开始准备法语考试，力争满足 [该类别的最低语言要求](#star)。  
 <!-- more -->
 
 ## 概览
