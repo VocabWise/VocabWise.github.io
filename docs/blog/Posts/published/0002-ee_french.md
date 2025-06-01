@@ -96,8 +96,77 @@ This guide focuses on the <span style="color: red;">**French-language proficienc
 ### 🚀 $\star$ French-language proficiency Category Eligibility
 1. <span style="color: red;">**Meet the minimum criteria for Express Entry**</span>, including being eligible for 1 of the 3 immigration programs it covers
 2. Have French-language test results that show a minimum score of <span style="color: red;">**7 in all 4 language abilities**</span> on the Niveaux de compétence linguistique canadiens
-      1. The equivalency between TCF and NCLC is shown in the [TCF-NCLC Equivalency](#tcf-nclc-equivalency) section.
+      1. The equivalency between TCFCanada and NCLC is shown in the [TCFCanada-NCLC Equivalency](#tcfcanada-nclc-equivalency) section.
 3. Meet all of the requirements in the instructions for that round<br><br>
+
+#### TCFCanada-NCLC Equivalency
+TCFCanada is one of the French-language exam used by IRCC to evaluate candidates' French-language proficiency. According to [IRCC's official document](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/language-results.html), the TCFCanada-NCLC Equivalency is as follows:
+
+<div style="text-align: center;">
+<table>
+<thead>
+<tr>
+<th>NCLC level</th>
+<th>Speaking</th>
+<th>Listening</th>
+<th>Reading</th>
+<th>Writing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>16-20</td>
+<td>549-699</td>
+<td>549-699</td>
+<td>16-20</td>
+</tr>
+<tr>
+<td>9</td>
+<td>14-15</td>
+<td>523-548</td>
+<td>524-548</td>
+<td>14-15</td>
+</tr>
+<tr>
+<td>8</td>
+<td>12-13</td>
+<td>503-522</td>
+<td>499-523</td>
+<td>12-13</td>
+</tr>
+<tr style="color: red; font-weight: bold; font-size: 100%;">
+<td>7</td>
+<td>10-11</td>
+<td>458-502</td>
+<td>453-498</td>
+<td>10-11</td>
+</tr>
+<tr>
+<td>6</td>
+<td>7-9</td>
+<td>398-457</td>
+<td>406-452</td>
+<td>7-9</td>
+</tr>
+<tr>
+<td>5</td>
+<td>6</td>
+<td>369-397</td>
+<td>375-405</td>
+<td>6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4-5</td>
+<td>331-368</td>
+<td>342-374</td>
+<td>4-5</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 
 ### 🚀 $\star$ French-language proficiency Category Invitation Procedure
 When holding a category-based round of invitations, IRCC will:
