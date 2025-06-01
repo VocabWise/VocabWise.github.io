@@ -2,17 +2,22 @@
 categories:
   - French
   - EE Entry
-date: 2025-05-31
+date: 
+  created: 2025-05-31
+  updated: 2025-06-01
 draft: true
 links:
   - index.md
-readtime: 1
+readtime: 30
 slug: ee-french
 authors:
   - <qihang>
+  - <jossie>
 ---
 # How to Apply PR via Learning French and Express Entry
-This guide explains how to learn French and apply for permanent residence (PR) in Canada through Express Entry as a French beginner. We will begin with an overview of the Express Entry system, with a focus on the <span style="color: red;">**French-language proficiency**</span> category. Then we'll introduce TCF Canada, the French test accepted for immigration purposes. Finally, we will share a study plan for both TCF Canada and PTE Core to accelerate your Express Entry application.
+This blog explains how to learn French and apply for permanent residence (PR) in Canada through Express Entry as a French beginner from scratch. In another word, <span style="color: red;">**this blog is a all-in-one guide for French beginner to apply PR via EE Entry.**</span>
+
+We will begin with an overview of the Express Entry system, with a focus on the <span style="color: red;">**Canadian Experience Class**</span> program and <span style="color: red;">**French-language proficiency**</span> category, as well as the whole procedure of EE Entry application. Then we'll introduce TCF Canada, the French test accepted for immigration purposes. Finally, we will share a study plan for both TCF Canada and PTE Core to accelerate your Express Entry application.
 <!-- more -->
 
 ## Overview
@@ -22,6 +27,8 @@ This guide explains how to learn French and apply for permanent residence (PR) i
 [Express Entry](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry) is the Canadian government's online system for managing skilled worker immigration. In this guide, we will use `EE Entry` to refer to the Express Entry system.
 
 EE Entry is a point-based system with different immigration programs and selection categories. Understanding both is critical to maximizing your Comprehensive Ranking System (CRS) score. In this section, we briefly introduce the Canadian Experience Class and the French-language proficiency category. For more details, see [EE Eligibility](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply.html#programs).
+
+![Express Entry](../assets/0002/Express_Entry.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 There are three main structural components of EE Entry:
 
@@ -43,7 +50,7 @@ According to the [official website](https://www.canada.ca/en/immigration-refugee
 2. Federal Skilled Worker Program
 3. Federal Skilled Trades Program<br><br>
 
-#### Eligibility for Immigration Programs
+#### 🚀 $\star$ Eligibility for Immigration Programs
 Each program has distinct eligibility requirements. Applicants must first identify the one they qualify for to enter the EE pool.
 
 We'll focus on the [Canadian Experience Class](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html):
@@ -82,7 +89,7 @@ And then we can see in the [Search Result of NOC Website](https://noc.esdc.gc.ca
 #### All Current Categories
 Once you're eligible for one of the three programs, you can increase your CRS score through the following six `Current categories`:
 
-1. French-language proficiency  
+1. <span style="color: red;">**French-language proficiency**</span>
 2. Healthcare and social services occupations  
 3. Science, Technology, Engineering and Math (STEM) occupations  
 4. Trade occupations  
@@ -91,23 +98,26 @@ Once you're eligible for one of the three programs, you can increase your CRS sc
 
 This guide focuses on the <span style="color: red;">**French-language proficiency**</span> category.<br><br>
 
-#### French-language proficiency Category Eligibility
+#### 🚀 $\star$ French-language proficiency Category Eligibility
 1. <span style="color: red;">**Meet the minimum criteria for Express Entry**</span>, including being eligible for 1 of the 3 immigration programs it covers
 2. Have French-language test results that show a minimum score of <span style="color: red;">**7 in all 4 language abilities **</span>on the Niveaux de compétence linguistique canadiens
-3. Meet all of the requirements in the instructions for that round
+      1. The equivalency between TCF and NCLC is shown in the [TCF-NCLC Equivalency](#tcf-nclc-equivalency) section.
+3. Meet all of the requirements in the instructions for that round<br><br>
 
+#### 🚀 $\star$ French-language proficiency Category Invitation Procedure
 When holding a category-based round of invitations, IRCC will:
 
 1. Rank candidates in the pool who meet the category requirements
-2. Invite top-ranking candidates to apply for permanent residence
+2. Invite top-ranking candidates to apply for permanent residence<br><br>
 
 > For the most up-to-date information, refer to the [official category-based selection page](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html).
 
 
-### Procedure For EE Entry Application
-> TODO: Add the procedure for EE Entry application
+### Procedure For EE Entry Application (TODO)
 
-## Introduction to TCF Canada
+## Introduction to TCF Canada (TODO)
+
+### TCF-NCLC Equivalency
 According to [IRCC's official document](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/language-results.html), the TCF-NCLC Equivalency is as follows:
 
 <div style="text-align: center;">
@@ -143,7 +153,7 @@ According to [IRCC's official document](https://www.canada.ca/en/immigration-ref
 <td>499-523</td>
 <td>12-13</td>
 </tr>
-<tr>
+<tr style="color: red; font-weight: bold; font-size: 100%;">
 <td>7</td>
 <td>10-11</td>
 <td>458-502</td>
@@ -175,12 +185,9 @@ According to [IRCC's official document](https://www.canada.ca/en/immigration-ref
 </table>
 </div>
 
-> TODO: Add the introduction to TCF Canada
+### Plan for Learning TCF Canada (TODO)
 
-### Plan for Learning TCF Canada
-> TODO: Add the plan for learning TCF Canada
-
-## Introduction to PTE Core
+## Introduction to PTE Core (TODO)
 Most people are familiar with English language tests like IELTS and CELPIP. Here, we introduce <span style="color: red;">**PTE Core**</span>, another English test accepted by IRCC. It is often considered easier and faster to prepare.
 
 According to [IRCC's official document](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/language-results.html), the PTE Core-CLB Equivalency is as follows:
@@ -256,8 +263,6 @@ According to [IRCC's official document](https://www.canada.ca/en/immigration-ref
 </tbody>
 </table>
 </div>
-
-> TODO: Add the introduction to PTE Core
 
 <span style="color: red;">***References:***</span>
 
