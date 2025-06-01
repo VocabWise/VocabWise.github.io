@@ -16,6 +16,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 source .venv/bin/activate
+bash ./sync_sub_folder_from_qihang.sh
 python ./utils/yml_autobuild.py --mode published
 mkdocs gh-deploy --force
 git add .
