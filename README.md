@@ -2,7 +2,7 @@
 
 This is the blog of VocabWise. We are documenting our learning process when building our product.
 
-## How to use
+## How to Use This Repository
 
 1. Install the dependencies, if you haven't install uv, please install uv.
 
@@ -28,11 +28,12 @@ uv run zsh localpreview.sh
 uv run zsh autopush.sh -m "your commit message"
 ```
 
-## Attention
+## Must Read before Starting Contributing the First Blog
 - Every time you push the blog, you should new a branch, and then push the branch to the remote repository.
 - If you just want to preview the draft and don't want to release the blog, you can put your draft in the `docs/blog/Posts/drafts` folder.
 - If you want to release the blog, you should move your draft to the `docs/blog/Posts/published` folder.
-- For name the file, you should follow the format `XXXX-{short-title}.md`, for example, `0000-example.md`.
+- *Important*: For name the file, you should follow the format `XXXX-{short-title}.md`, for example, `0000-example.md`. please use lower case and `-` to separate the words, for example, `0000-example.md` is correct, but `0000 Example.md` is incorrect. `0000-example_test.md` is also correct, but `0000-example test.md` and `0000-example-test` are incorrect.
+- *Important*: For the slug, you should follow the format like `abc-bac-xxx-xyz`, please use lower case and `-` to separate the words, for example, `ee-french` is correct, but `ee french` and `EE-French` are incorrect.
 
 ## Other Tricks
 1. If you want to cite a source, you should following the instructions:
