@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set variables
-REMOTE_REPO="https://github.com/Qihang-Zhang/notes.git"              # remote repo
+REMOTE_REPO="git@github.com:Qihang-Zhang/notes.git"              # remote repo
 SOURCE_DIR_A="docs/Note/Posts/published"                             # source dir to sync
 SOURCE_DIR_B="docs/Note/Posts/assets"                                # source dir to sync
 TARGET_DIR_A="docs/blog/Posts/published"            # target dir to sync
