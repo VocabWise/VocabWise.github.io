@@ -1,15 +1,16 @@
 authors:
   <qihang>:
     name: Qihang        # Author name
-    description: NaN # Author description
-    avatar: https://avatars.githubusercontent.com/u/148497514?v=4         # Author avatar
+    description: A LLM Explorer.
+    avatar: https://avatars.githubusercontent.com/u/148497514?v=4
+    
 
-  <Jossie>:
+  <jossie>:
     name: Jossie
     description: NaN
-    avatar: https://avatars.githubusercontent.com/u/148497514?v=4
+    avatar: https://avatars.githubusercontent.com/u/88167742?v=4
   
-  <Felix>:
+  <felix>:
     name: Felix
     description: NaN
-    avatar: https://avatars.githubusercontent.com/u/148497514?v=4
+    avatar: https://avatars.githubusercontent.com/u/51791082?v=4
