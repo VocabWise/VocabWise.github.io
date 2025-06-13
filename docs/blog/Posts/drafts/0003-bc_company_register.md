@@ -8,6 +8,7 @@ links:
 readtime: 1
 slug: bc-company-register
 authors:
+  - <jossie>
   - <qihang>
 ---
 # BC Company Register
@@ -24,6 +25,10 @@ Use [Corporate Online](https://www.corporateonline.gov.bc.ca/) or [BC Registry](
 
 ## Trademarks Registration
 Search if the proposed name has already been trademarked [here](https://ised-isde.canada.ca/cipo/trademark-search/srch).
+
+## Bank Account
+
+## Tax
 
 
 
