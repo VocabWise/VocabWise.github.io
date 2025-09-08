@@ -1,0 +1,16 @@
+repo_name: VocabWise/blogs
+
+repo_url: https://github.com/VocabWise/blogs
+
+site_name: VocabWise's Blog
+
+site_url: https://vocabwise.github.io/blogs
+
+extra:
+  homepage: https://vocabwise.github.io/
+
+plugins:
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_dir: "{blog}/Posts"

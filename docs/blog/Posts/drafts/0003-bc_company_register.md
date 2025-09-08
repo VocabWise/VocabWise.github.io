@@ -35,7 +35,6 @@ Search if the proposed name has already been trademarked [here](https://ised-isd
 
 
 
-
 ***References:***
 - [BC Company Register](https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/starting-a-business/starting-a-restaurant-in-bc/register-your-business)
 
