@@ -30,7 +30,7 @@ This blog explains how to apply for permanent residence (PR) in Canada through t
 
 EE Entry is a score-based system with different immigration programs and selection categories. Understanding both is critical to maximizing your Comprehensive Ranking System (CRS) score. In this section, we briefly introduce the Canadian Experience Class and the French-language proficiency category. For more details, see [EE Eligibility](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply.html#programs).
 
-![Express Entry](../assets/0002/Express_Entry.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
+![Express Entry](https://img.qihang-zhang.com/2025/09/432464c6506d0d4de87b90759b4f10b9.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 There are three main structural components of EE Entry:
 
@@ -43,7 +43,7 @@ To begin, you must first qualify for one of the immigration programs, then explo
 ## Comprehensive Ranking System (CRS)
 CRS Score System is a key component of EE Entry. It is used to determine candidates' eligibility and rank them in the pool. Here is the [official calculator](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score.html#calculator). <span style="color: red;">**Generally, young people with relatively good educational backgrounds can easily earn CRS points sufficient to pass the French-language proficiency category.**</span>
 
-![CRS Calculator](../assets/0002/CRS_calculator.png){width=60% style="display: block; margin: 0 auto; text-align: center;"}
+![CRS Calculator](https://img.qihang-zhang.com/2025/09/7066998954a5b10218218992e6788568.png){width=60% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## Eligibility for EE Entry and the Three `Immigration programs`
 ### Immigration Programs
@@ -87,7 +87,7 @@ Take an example of a Graduate Student in Canada, the NOC code of `Post-secondary
 
 We can then see in the [Search Result of NOC Website](https://noc.esdc.gc.ca/Structure/NOCProfile?code=41201&version=2021.0), Both Teaching Assistants and Research Assistants are included in TEER 1. So if you were serving as a TA or RA in Canada for at least 1 year, you are eligible for Canadian Experience Class Program.<br><br>
 
-![NOC_Code_RA](../assets/0002/NOC_Code_RA.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
+![NOC_Code_RA](https://img.qihang-zhang.com/2025/09/a7057de28c579819e950e777c732c3ca.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## `Current Categories`
 ### All Current Categories
@@ -189,7 +189,7 @@ When holding a category-based round of invitations, IRCC will:
 
 As shown by [IRCC](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html), IRCC invited **23,500** people in 2024, the highest score of CRS in French-language proficiency category is **478**, the lowest score is **336**. Generally speaking, if you are eligible for French-language proficiency category and have reasonably good CRS scores, you have a good chance to be invited.
 
-![CRS_French](../assets/0002/CRS_French.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
+![CRS_French](https://img.qihang-zhang.com/2025/09/d02bd374ec33f289a7b987b99e8085ad.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## Conclusion
 <span style="color: red;">**The French-language proficiency category has been relatively stable in recent years. If you are eligible for French-language proficiency category and have reasonably good CRS scores, you have a good chance to be invited.**</span>
