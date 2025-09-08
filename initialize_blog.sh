@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-set -euo pipefail
-
 REPO_URL="git@github.com:Qihang-Zhang/customized_mkdocs.git"
 TARGET_DIR="./customized_mkdocs"
 
