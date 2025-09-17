@@ -2,9 +2,8 @@
 name: Deploy
 on:
   workflow_dispatch:  # manual trigger
-  pull_request:
+  push:
     branches: [main]
-    types: [closed]   # PR closed trigger
 
 jobs:
   deploy:

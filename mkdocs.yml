@@ -95,4 +95,9 @@ theme:
         icon: material/brightness-3
         name: Switch to light mode
 
+  nav:
+    - blog:
+      - index: blog/index.md
+    - index.md
+
 
