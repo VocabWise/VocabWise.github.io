@@ -1,8 +1,10 @@
 authors:
   <qihang>:
     name: Qihang        # Author name
-    description: A LLM Explorer.
+    description: Learning By Doing.
     avatar: https://avatars.githubusercontent.com/u/148497514?v=4
+    slug: qihang
+    url: https://qihang-zhang.com
     
 
   <jossie>:

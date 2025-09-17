@@ -33,7 +33,7 @@ authors:
 
 EE Entry 基于评分系统运作，包含多个移民项目（immigration programs）和特定类别（selection categories）。理解这两大结构，是最大化你的综合排名系统（Comprehensive Ranking System，简称 CRS）得分的关键。在接下来的内容中，我们将聚焦于加拿大经验类（Canadian Experience Class）和法语能力类别（French-language proficiency）。详细信息可参考 [EE Eligibility](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply.html#programs)。
 
-![Express Entry](../assets/0002/Express_Entry.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
+![Express Entry](https://img.qihang-zhang.com/2025/09/432464c6506d0d4de87b90759b4f10b9.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 EE Entry 主要由以下三大部分组成：
 
@@ -49,7 +49,7 @@ EE Entry 主要由以下三大部分组成：
 
 <span style="color: red;">**一般来说，年轻、学历高的申请人，通过法语类别拿到足够 CRS 分数的机会较大。**</span>
 
-![CRS Calculator](../assets/0002/CRS_calculator.png){width=60% style="display: block; margin: 0 auto; text-align: center;"}
+![CRS Calculator](https://img.qihang-zhang.com/2025/09/7066998954a5b10218218992e6788568.png){width=60% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## EE Entry 下的三类移民项目（Immigration Programs）
 
@@ -75,7 +75,7 @@ EE Entry 主要由以下三大部分组成：
 
 📌 示例：如果你是加拿大高校的教学助理（TA）或研究助理（RA），对应的 NOC 代码为 `41201`，属于 TEER 1。若你累积了一年全职（或等效兼职）经验，即可符合加拿大经验类项目的要求。
 
-![NOC_Code_RA](../assets/0002/NOC_Code_RA.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
+![NOC_Code_RA](https://img.qihang-zhang.com/2025/09/a7057de28c579819e950e777c732c3ca.png){width=90% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## 当前类别（Current Categories）
 
@@ -115,7 +115,7 @@ EE Entry 主要由以下三大部分组成：
 
 根据 [IRCC 官方数据](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html)，2024 年法语能力类别共邀请 23,500 人，CRS 分数区间为 **336 - 478**。
 
-![CRS_French](../assets/0002/CRS_French.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
+![CRS_French](https://img.qihang-zhang.com/2025/09/d02bd374ec33f289a7b987b99e8085ad.png){width=80% style="display: block; margin: 0 auto; text-align: center;"}
 
 ## 总结
 
