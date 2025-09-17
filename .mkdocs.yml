@@ -1,3 +1,5 @@
+INHERIT: ./customized_mkdocs/base_mkdocs.yml
+
 repo_name: VocabWise/blogs
 
 repo_url: https://github.com/VocabWise/blogs
