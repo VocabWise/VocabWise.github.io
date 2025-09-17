@@ -49,8 +49,6 @@ plugins:
     post_url_format: '{date}/{slug}'
 
 draft_docs: |
-  drafts/
-  private/
   *_wip.md
   !/keep_this.md
 
