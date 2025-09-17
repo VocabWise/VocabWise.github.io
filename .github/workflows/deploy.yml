@@ -22,4 +22,5 @@ jobs:
 
       - name: release the blog
         run: |
+          cd blogs
           uv run mkdocs gh-deploy --force
