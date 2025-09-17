@@ -10,22 +10,16 @@ This is the blog of VocabWise. We are documenting our learning process when buil
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-2. Install the dependencies
+2. Run the server locally  to preview the blog.
 
 ```bash
-uv sync
-```
-
-3. Run the server locally  to preview the blog.
-
-```bash
-uv run zsh localpreview.sh
+uv run mkdocs serve --watch-theme
 ```
 
 4. Release the blog.
 
 ```bash
-uv run zsh autopush.sh -m "your commit message"
+uv run mkdocs gh-deploy --force
 ```
 
 ## Must Read before Starting Contributing the First Blog
