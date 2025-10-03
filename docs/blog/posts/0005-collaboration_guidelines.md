@@ -1,7 +1,9 @@
 ---
 categories:
   - Tools
-date: 2025-09-08
+date: 
+  created: 2025-09-08
+  updated: 2025-10-03
 draft: false
 links:
   - index.md
@@ -19,7 +21,7 @@ This post outlines our Git & GitHub collaboration guidelines.We’ve observed th
 
 ## Git & GitHub Collaboration Guidelines
 
-### **Branch Management**
+### **Create New Branches**
    1. Always create new branches from `main`.
    2. Branch naming convention: `name/sub-feature` where:
      - `name` = engineer’s name or handle
@@ -55,6 +57,13 @@ This post outlines our Git & GitHub collaboration guidelines.We’ve observed th
        - Links: related Ticket/Issue references
    5. Merge Strategy
      - use `Squash and Merge` to keep `main` history clean (one PR → one commit), and require a clear, conventional commit message at merge time.
+
+### **Merge Directions**
+
+ 1. **Feature to Main**: All feature branches must be merged into `main`.
+ 2. **Main to Alpha**: After testing merged code, merge `main` into `deploy-alpha` for staging release.
+ 3. **Alpha to Beta**: Once `deploy-alpha` is verified in staging, merge into `deploy-beta` for production release.
+
 
 ### **Code Review Requirements**
 Reviewers must at minimum check:
