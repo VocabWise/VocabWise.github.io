@@ -22,4 +22,4 @@
 	</body>
 </html>
 
-Hi, this is the learning blog of [VocabWise](https://www.vocabwise.com). We are documenting our leanring process when building our product.
+Hi, this is the learning blog of [VocabWise](https://www.vocabwise.ca). We are building AI-native tools for language leanring and documenting our leanring process when building our product.
